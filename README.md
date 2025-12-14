@@ -1,4 +1,4 @@
-# Shadcn Admin Dashboard
+# Venture mond  Dashboard
 
 Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.
 
@@ -91,13 +91,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pnpm install
+  npm install
 ```
 
 Start the server
 
 ```bash
-  pnpm run dev
+  npm run dev
 ```
 
 ## Sponsoring this project ❤️

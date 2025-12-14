@@ -44,6 +44,9 @@ export function SignIn() {
             </a>
             .
           </p>
+          <div className='mt-4 w-full text-center text-xs text-muted-foreground'>
+            &copy; 2025 VentureMond. All rights reserved.
+          </div>
         </CardFooter>
       </Card>
     </AuthLayout>

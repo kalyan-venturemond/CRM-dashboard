@@ -63,7 +63,7 @@ export function UserAuthForm({
         const mockUser = {
           accountNo: 'ACC001',
           email: data.email,
-          role: ['user'],
+          role: ['admin'],
           exp: Date.now() + 24 * 60 * 60 * 1000, // 24 hours from now
         }
 

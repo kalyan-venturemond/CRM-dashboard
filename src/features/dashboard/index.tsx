@@ -49,12 +49,8 @@ export function Dashboard() {
             <TabsList>
               <TabsTrigger value='overview'>Overview</TabsTrigger>
               <TabsTrigger value='analytics'>Analytics</TabsTrigger>
-              <TabsTrigger value='reports' disabled>
-                Reports
-              </TabsTrigger>
-              <TabsTrigger value='notifications' disabled>
-                Notifications
-              </TabsTrigger>
+              <TabsTrigger value='reports'>Reports</TabsTrigger>
+              <TabsTrigger value='notifications'>Notifications</TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value='overview' className='space-y-4'>
@@ -186,6 +182,29 @@ export function Dashboard() {
           <TabsContent value='analytics' className='space-y-4'>
             <Analytics />
           </TabsContent>
+          <TabsContent value='reports' className='space-y-4'>
+            <div className='flex h-[450px] shrink-0 items-center justify-center rounded-md border border-dashed'>
+              <div className='mx-auto flex max-w-[420px] flex-col items-center justify-center text-center'>
+                <h3 className='mt-4 text-lg font-semibold'>No reports created</h3>
+                <p className='text-muted-foreground mb-4 mt-2 text-sm'>
+                  You have not created any reports yet.
+                </p>
+                <Button size='sm'>Add Report</Button>
+              </div>
+            </div>
+          </TabsContent>
+          <TabsContent value='notifications' className='space-y-4'>
+            <div className='flex h-[450px] shrink-0 items-center justify-center rounded-md border border-dashed'>
+              <div className='mx-auto flex max-w-[420px] flex-col items-center justify-center text-center'>
+                <h3 className='mt-4 text-lg font-semibold'>
+                  No notifications yet
+                </h3>
+                <p className='text-muted-foreground mb-4 mt-2 text-sm'>
+                  You have not received any notifications yet.
+                </p>
+              </div>
+            </div>
+          </TabsContent>
         </Tabs>
       </Main>
     </>
@@ -195,26 +214,26 @@ export function Dashboard() {
 const topNav = [
   {
     title: 'Overview',
-    href: 'dashboard/overview',
+    href: '/',
     isActive: true,
     disabled: false,
   },
   {
     title: 'Customers',
-    href: 'dashboard/customers',
+    href: '/users',
     isActive: false,
-    disabled: true,
+    disabled: false,
   },
   {
     title: 'Products',
-    href: 'dashboard/products',
+    href: '/apps',
     isActive: false,
-    disabled: true,
+    disabled: false,
   },
   {
     title: 'Settings',
-    href: 'dashboard/settings',
+    href: '/settings',
     isActive: false,
-    disabled: true,
+    disabled: false,
   },
 ]
