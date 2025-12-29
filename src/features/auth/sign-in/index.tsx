@@ -45,7 +45,7 @@ export function SignIn() {
             .
           </p>
           <div className='mt-4 w-full text-center text-xs text-muted-foreground'>
-            &copy; 2025 VentureMond. All rights reserved.
+            &copy; 2025 LeadNest AI. All rights reserved.
           </div>
         </CardFooter>
       </Card>

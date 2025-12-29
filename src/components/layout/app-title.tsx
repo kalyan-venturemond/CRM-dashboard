@@ -26,7 +26,7 @@ export function AppTitle() {
               className='grid flex-1 text-start text-sm leading-tight'
             >
               <span className='truncate font-normal'>
-                Venture <span className='font-bold'>Mond</span>
+                LeadNest <span className='font-bold'>AI</span>
               </span>
             </Link>
             <ToggleSidebar />

@@ -25,23 +25,23 @@ import { type SidebarData } from '../types'
 
 export const sidebarData: SidebarData = {
   user: {
-    name: 'VentureMond Client',
-    email: 'client@venturemond.com',
+    name: 'Sales Rep',
+    email: 'sales@leadnest.ai',
     avatar: '/avatars/shadcn.jpg',
   },
   teams: [
     {
-      name: 'VentureMond',
+      name: 'LeadNest AI',
       logo: Logo,
-      plan: 'Client Dashboard',
+      plan: 'Smart CRM',
     },
     {
-      name: 'VentureMond Labs',
+      name: 'LeadNest AI Labs',
       logo: Logo,
       plan: 'Research',
     },
     {
-      name: 'VentureMond Demo',
+      name: 'LeadNest AI Demo',
       logo: Logo,
       plan: 'Playground',
     },

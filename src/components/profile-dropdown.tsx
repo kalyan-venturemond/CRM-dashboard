@@ -31,9 +31,9 @@ export function ProfileDropdown() {
         <DropdownMenuContent className='w-56' align='end' forceMount>
           <DropdownMenuLabel className='font-normal'>
             <div className='flex flex-col gap-1.5'>
-              <p className='text-sm leading-none font-medium'>VentureMond Client</p>
+              <p className='text-sm leading-none font-medium'>Sales Rep</p>
               <p className='text-muted-foreground text-xs leading-none'>
-                client@venturemond.com
+                sales@leadnest.ai
               </p>
             </div>
           </DropdownMenuLabel>

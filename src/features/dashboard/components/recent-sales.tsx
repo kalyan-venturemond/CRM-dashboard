@@ -12,7 +12,7 @@ export function RecentSales() {
           <div className='space-y-1'>
             <p className='text-sm leading-none font-medium'>Client A</p>
             <p className='text-muted-foreground text-sm'>
-              client.a@venturemond.com
+              client.a@leadnest.ai
             </p>
           </div>
           <div className='font-medium'>+$1,999.00</div>
@@ -27,7 +27,7 @@ export function RecentSales() {
           <div className='space-y-1'>
             <p className='text-sm leading-none font-medium'>Client B</p>
             <p className='text-muted-foreground text-sm'>
-              client.b@venturemond.com
+              client.b@leadnest.ai
             </p>
           </div>
           <div className='font-medium'>+$39.00</div>
@@ -42,7 +42,7 @@ export function RecentSales() {
           <div className='space-y-1'>
             <p className='text-sm leading-none font-medium'>Client C</p>
             <p className='text-muted-foreground text-sm'>
-              client.c@venturemond.com
+              client.c@leadnest.ai
             </p>
           </div>
           <div className='font-medium'>+$299.00</div>
@@ -57,7 +57,7 @@ export function RecentSales() {
         <div className='flex flex-1 flex-wrap items-center justify-between'>
           <div className='space-y-1'>
             <p className='text-sm leading-none font-medium'>Client D</p>
-            <p className='text-muted-foreground text-sm'>client.d@venturemond.com</p>
+            <p className='text-muted-foreground text-sm'>client.d@leadnest.ai</p>
           </div>
           <div className='font-medium'>+$99.00</div>
         </div>
@@ -72,7 +72,7 @@ export function RecentSales() {
           <div className='space-y-1'>
             <p className='text-sm leading-none font-medium'>Client E</p>
             <p className='text-muted-foreground text-sm'>
-              client.e@venturemond.com
+              client.e@leadnest.ai
             </p>
           </div>
           <div className='font-medium'>+$39.00</div>

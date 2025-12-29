@@ -11,7 +11,7 @@ export function AuthLayout({ children }: AuthLayoutProps) {
         <div className='mb-4 flex items-center justify-center gap-2'>
           <Logo className='size-8' />
           <h1 className='text-xl font-normal'>
-            Venture <span className='font-bold'>Mond</span>
+            LeadNest <span className='font-bold'>AI</span>
           </h1>
         </div>
         {children}
